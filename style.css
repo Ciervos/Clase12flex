@@ -1,0 +1,56 @@
+.container {
+    margin-bottom: 45px;
+    display: flex;
+ }
+.item {
+    height: 250px;
+    width: 250px;
+   
+}
+.item:nth-child(1) {
+    background-color: crimson;
+    color: white;
+}
+.item:nth-child(2) {
+    background-color: teal;
+    color: white;
+}
+.item:nth-child(3) {
+    background-color: tomato;
+    color: white;
+}
+
+/***/
+
+.hor
+{
+   flex-direction: row; 
+   
+}
+
+.ver
+{
+    flex-direction: column; 
+ }
+
+ .derizq
+ {
+    flex-direction: row-reverse; 
+ }
+
+ .abar
+ {
+    flex-direction: column-reverse; 
+ }
+
+ .sepauto
+ {
+   justify-content: space-between;
+ }
+
+ .centradonum
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
